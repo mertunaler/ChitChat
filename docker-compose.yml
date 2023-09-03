@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  redis_service:
+    container_name: redisCont
+    image: redis
+    ports:
+    - 1923:6379
+  elastic_service:
+    container_name: elasticCont
+    image: elasticsearch:8.9.0
+    ports:
+    - 1881:9200
+  kibana_service:
+    container_name: kibanaCont
+    image: kibana
+    ports:
+    - 2001:5601
