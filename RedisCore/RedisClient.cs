@@ -15,7 +15,7 @@ namespace RedisCore
             var config = new ConfigurationOptions()
             {
                 EndPoints = { "localhost:1923" },
-                Password = "", 
+                Password = "Younevergonnafindit", 
             };
             //Connection to the Redis Server.
             _conn = ConnectionMultiplexer.Connect(config);  

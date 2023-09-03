@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ElasticCore\ElasticCore.csproj" />
     <ProjectReference Include="..\RedisCore\RedisCore.csproj" />
   </ItemGroup>
 
