@@ -16,7 +16,6 @@ namespace RedisCore
             {
                 EndPoints = { "localhost:1923" },
                 Password = "mert11",
-                Ssl = true
             };
             //Connection to the Redis Server.
             _conn = ConnectionMultiplexer.Connect(config);  
